@@ -1,6 +1,6 @@
-variable name {
-  type        = list(string)
-  default     = ["my sql", "backend", "database"]
+variable "instance_names" {
+    type = list(string)
+    default = ["mysql", "backend", "frontend"]
 }
 
 variable "common_tags" {
@@ -13,9 +13,9 @@ variable "common_tags" {
 }
 
 variable "zone_id" {
-    default = "ZZ04822283JSZXZNDZPYYQTG"
+    default = "Z09912121MS725XSKH1TG"
 }
 
 variable "domain_name" {
-    default = "hawsdevops.online"
+    default = "daws81s.online"
 }
