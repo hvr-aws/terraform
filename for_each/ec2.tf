@@ -1,5 +1,5 @@
 
-resource "aws_instance" "terraform" {
+resource "aws_instance" "expense" {
     for_each = var.instances
     ami = "ami-09c813fb71547fc4f"
     instance_type = each.value
