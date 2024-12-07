@@ -12,3 +12,6 @@ variable "zone_id" {
     default = "Z04822283JSZXZNDZPYYQ"
 }
 
+variable "environment" {
+  default = "prod"
+}
